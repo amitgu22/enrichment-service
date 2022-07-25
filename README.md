@@ -22,20 +22,20 @@ Once setup is done, you can start your spring boot application, which will conne
    
 3. Test changes /producer/api/sendRequest    
 
-{
-  "city": "Berlin",
-  "country": "string",
-  "population": "string"
-}
+         {
+           "city": "Berlin",
+           "country": "string",
+           "population": "string"
+         }
 
 4. Observed the sequences of message parsing to wards the topics
 
-Received a message contains a population information with city name Berlin, from input-topic topic, 0 partition, and 89823 offset
-Hibernate: SELECT * FROM COUNTRY WHERE CITY_NAME=?
+   Received a message contains a population information with city name Berlin, from input-topic topic, 0 partition, and 89823 offset
+   Hibernate: SELECT * FROM COUNTRY WHERE CITY_NAME=?
 
-{ ## enrichment is completed before sending to output Population(Berlin, 3465000,Germany)
+   { ## enrichment is completed before sending to output Population(Berlin, 3465000,Germany)
 
-{ successfully sent enrichment request to topic name = output-topic, with offset = 50 and request = Population(Berlin, 3465000,Germany) }
+   { successfully sent enrichment request to topic name = output-topic, with offset = 50 and request = Population(Berlin, 3465000,Germany) }
 
 
 
