@@ -1,0 +1,11 @@
+spring.kafka.consumer.bootstrap-servers: localhost:9092
+spring.kafka.consumer.group-id: input-consumer-group-id
+spring.kafka.replication.factor: 3
+spring.kafka.partition.number: 2
+spring.kafka.consumer.auto-offset-reset: earliest
+spring.kafka.consumer.key-deserializer: com.data.enrichment.common.util.PopulationDeserializer
+spring.kafka.consumer.value-deserializer: com.data.enrichment.common.util.PopulationDeserializer
+
+spring.kafka.producer.bootstrap-servers: localhost:9092
+spring.kafka.producer.key-serializer: com.data.enrichment.common.util.PopulationSerializer
+spring.kafka.producer.value-serializer: com.data.enrichment.common.util.PopulationSerializer
