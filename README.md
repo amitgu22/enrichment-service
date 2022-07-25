@@ -1,3 +1,5 @@
+## enrichment-service
+
 This is a simple Spring Boot app to demonstrate sending and receiving of messages in Kafka using Kafka listner.
 
 The task is to write a simple Java application that does the following: 
