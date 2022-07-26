@@ -20,13 +20,13 @@ public class KafkaTopicConfig {
 // keeping old reference of yml based configuration
     @Bean
     public NewTopic inputTopic(){
-        return TopicBuilder.name("input-topic")
+        return TopicBuilder.name("input-topic").partitions(2).replicas(3)
                 .build();
     }
 
     @Bean
     public NewTopic outputTopic(){
-        return TopicBuilder.name("output-topic")
+        return TopicBuilder.name("output-topic").partitions(2).replicas(3)
                 .build();
     }
 }
