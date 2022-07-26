@@ -2,7 +2,7 @@
 
 This is a simple Spring Boot app to demonstrate sending and receiving of messages in Kafka using Kafka listner.
 
-As a pre-requisisye to the demo , we need to have local kafka setup.
+As a prerequisite to the demo , we need to have local kafka setup.
 
 Please follow the exact stpes mentioned in below UARL
 
