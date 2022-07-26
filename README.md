@@ -4,7 +4,7 @@ This is a simple Spring Boot app to demonstrate sending and receiving of message
 
 As a prerequisite to the demo , we need to have local kafka setup.
 
-Please follow the exact stpes mentioned in below UARL
+Please follow the exact stpes mentioned in below 
 
 ## https://www.geeksforgeeks.org/how-to-install-and-run-apache-kafka-on-windows/
 
