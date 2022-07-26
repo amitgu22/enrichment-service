@@ -2,13 +2,13 @@
 
 This is a simple Spring Boot app to demonstrate sending and receiving of messages in Kafka using Kafka listner.This repo will cover real time scenario and includes below implementations
 
-##Kafak Producer - Consumer communication.
+## Kafka Producer - Consumer communication.
 
 ## Domain design
 
 ## JPA repository for CRUD operations
 
-## Muliple topic consumption using consumer group
+## Muliple topic consumption using same consumer group
 
 ## Open API documentations.
 
