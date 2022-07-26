@@ -29,7 +29,7 @@ Once setup is done, you can start your spring boot application, which will conne
    Received a message contains a population information with city name Berlin, from input-topic topic, 0 partition, and 89823 offset
    Hibernate: SELECT * FROM COUNTRY WHERE CITY_NAME=?
 
-   { ## enrichment is completed before sending to output Population(Berlin, 3465000,Germany)
+   { ## enrichment is completed before sending to output topic -> Population(Berlin, 3465000,Germany)
 
    { successfully sent enrichment request to topic name = output-topic, with offset = 50 and request = Population(Berlin, 3465000,Germany) }
 
