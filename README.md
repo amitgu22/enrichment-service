@@ -2,12 +2,6 @@
 
 This is a simple Spring Boot app to demonstrate sending and receiving of messages in Kafka using Kafka listner.
 
-The task is to write a simple Java application that does the following: 
-1. Read a message from “input_topic” in Kafka. 
-2. Enrich the data payload with Country taken from a database 
-3. Enrich the data payload with Population taken from a REST/HTTP endpoint 
-4. Send the enriched message to “output_topic” in Kafka 
-
 As a pre-requisisye to the demo , we need to have local kafka setup.
 
 Please follow the exact stpes mentioned in below UARL
