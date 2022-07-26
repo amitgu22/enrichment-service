@@ -1,6 +1,20 @@
 ## enrichment-service
 
-This is a simple Spring Boot app to demonstrate sending and receiving of messages in Kafka using Kafka listner.
+This is a simple Spring Boot app to demonstrate sending and receiving of messages in Kafka using Kafka listner.This repo will cover real time scenario and includes below implementations
+
+##Kafak Producer - Consumer communication.
+
+## Domain design
+
+## JPA repository for CRUD operations
+
+## Muliple topic consumption using consumer group
+
+## Open API documentations.
+
+## Java 8 strems API
+
+
 
 As a prerequisite to the demo , we need to have local kafka setup.
 
